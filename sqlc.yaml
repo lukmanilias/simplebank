@@ -1,6 +1,7 @@
 version: "1"
 packages:
   - name: "db"
+    # generated code only got inside "path"
     path: "./db/sqlc"
     queries: "./db/query/"
     schema: "./db/migration/"
